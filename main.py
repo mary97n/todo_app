@@ -1,5 +1,6 @@
-import functions
+import functions, time
 
+print(f"Today is {time.strftime('%b %d, %Y %H:%M:%S')}")
 while True:
     # Ask user
     user_action = input("Type add, complete, edit, exit or show: ").lower().strip()
